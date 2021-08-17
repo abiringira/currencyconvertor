@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Currency Conversion</string>
+    <string name="title_home">Exchange Rates</string>
+    <string name="title_currency">Convert Currency</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_feature_x">Feature X Title</string>
+    <string name="title_feature_y">Feature Y Title</string>
+    <string name="title_feature_z">Feature Z Title</string>
+</resources>

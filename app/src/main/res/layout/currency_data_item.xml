@@ -1,0 +1,66 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+
+
+        <variable
+            name="recycleData"
+            type="com.paypay.currency.convertor.data.model.ExchangeRateResponse" />
+    </data>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/grid_item_currency_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD"
+            android:textSize="20sp"
+            android:textColor="#5D1049"
+            android:gravity="center"
+            android:shadowRadius="45"/>
+
+
+
+    <TextView
+        android:id="@+id/grid_item_currency_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@{recycleData.quotes.toString()}"
+        android:textSize="20sp"
+        android:textColor="#5D1049"
+        android:gravity="center"
+        android:shadowRadius="45"/>
+
+
+        <TextView
+            android:id="@+id/grid_item_currency_rates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{recycleData.quotes.toString()}"
+            android:textSize="20sp"
+            android:textColor="#5D1049"
+            android:gravity="center"
+            android:shadowRadius="45"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</layout>
